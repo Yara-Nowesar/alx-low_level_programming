@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *
- * Description: compare the last digit of number n with 0 , 5 and 6
+ * Description: check  the last digit of number n
  *
  * Return: 0 (Success)
  */
@@ -19,7 +19,7 @@ int main(void)
 
 if (digit > 5)
 	printf("Last digit of %i is %i and is greater than 5\n", n, digit);
-else if (digit < 6)
+else if (digit < 6 && digit != 0)
 	printf("Last digit of %i is %i and is less than 6 and not 0\n", n, digit);
 else
 	printf("Last digit of %i is 0 and is 0\n", n);
