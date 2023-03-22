@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: print alphabet - using _putchar function to print the alphabet a - z
+ * print_alphabet - using _putchar function to print the alphabet a - z
  *
  * Return: always 0 (success)
 */
