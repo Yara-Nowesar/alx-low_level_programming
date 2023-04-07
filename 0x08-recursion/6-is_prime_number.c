@@ -14,7 +14,7 @@ int is_prime_number(int n)
 	return (check_prime(n, 2));
 }
 
-int check_prime(int n,int othrn)
+int check_prime(int n, int othrn)
 {
 	if (othrn >= n && n > 1)
 		return (1);
